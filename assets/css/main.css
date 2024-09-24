@@ -21,3 +21,9 @@ section.content .ud-grid .blog {
     gap: 20px;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
+
+section.content .ud-grid .blogpost {
+    grid-area: blog;
+    border-radius: 10px;
+}
+
