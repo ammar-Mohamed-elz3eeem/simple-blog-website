@@ -89,6 +89,9 @@ input {
 .ud-items-end {
     justify-content: flex-end;
 }
+.ud-flex-grow {
+    flex-grow: 1;
+}
 
 /***** Start Grid Styles *****/
 .ud-grid {

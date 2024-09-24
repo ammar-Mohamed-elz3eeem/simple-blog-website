@@ -27,3 +27,8 @@ section.content .ud-grid .blogpost {
     border-radius: 10px;
 }
 
+section.content .ud-grid .blogpost .author-info {
+    border: 2px solid var(--text-primary);
+    padding: 10px 20px;
+}
+
