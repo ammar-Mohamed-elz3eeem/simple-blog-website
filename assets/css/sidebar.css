@@ -1,0 +1,17 @@
+.sidebar {
+    grid-area: sidebar;
+    border: 2px solid var(--text-primary);
+    border-radius: 0.7rem;
+}
+
+.sidebar ul li {
+    background-color: var(--bg-secondary);
+    margin: 0.4rem 0;
+    padding: 0.8rem;
+}
+
+@media(max-width: 726px) {
+    section.content .ud-grid .sidebar {
+        display: none;
+    }
+}

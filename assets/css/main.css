@@ -15,28 +15,7 @@ section.content .ud-grid {
 
 section.content .ud-grid .blog {
     grid-area: blog;
-}
-
-section.content .ud-grid .sidebar {
-    grid-area: sidebar;
-    border: 2px solid var(--text-primary);
-    border-radius: 0.7rem;
-}
-
-section.content .ud-grid .sidebar ul li {
-    background-color: var(--bg-secondary);
-    margin: 0.4rem 0;
-    padding: 0.8rem;
-}
-
-section.content .ud-grid .blog {
     display: grid;
     gap: 20px;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-}
-
-@media(max-width: 726px) {
-    section.content .ud-grid .sidebar {
-        display: none;
-    }
 }
