@@ -3,6 +3,7 @@
 @import url('./header.css');
 @import url('./footer.css');
 @import url('./content.css');
+@import url('./sidebar.css');
 
 section.content {
     margin: 1rem 2rem;
