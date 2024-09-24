@@ -1,0 +1,134 @@
+:root {
+    --bg-primary: #FFF8E8;
+    --bg-secondary: #F7EED3;
+    --text-primary: #674636;
+    --text-secondary: #AAB396;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 16px;
+    background: var(--bg-primary);
+    color: var(--text-color);
+}
+
+.ud-container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.ud-card {
+    width: 300px;
+    height: auto;
+    font-size: 1rem;
+}
+
+.ud-card-container {
+    width: 300px;
+    height: auto;
+    font-size: 1rem;
+}
+
+.ud-flex {
+    display: flex;
+}
+.ud-flex-wrap {
+    flex-wrap: wrap;
+}
+.ud-flex-nowrap {
+    flex-wrap: nowrap;
+}
+.ud-items-center {
+    align-items: center;
+}
+.ud-items-start {
+    align-items: flex-start;
+}
+.ud-justify-center {
+    justify-content: center;
+}
+.ud-justify-start {
+    justify-content: flex-start;
+}
+.ud-justify-between {
+    justify-content: space-between;
+}
+.ud-flex-column {
+    flex-direction: column;
+}
+.ud-flex-row {
+    flex-direction: row;
+}
+
+.ud-grid {
+    display: grid;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    color: var(--text-primary);
+    text-decoration: none;
+    transition: color ease-in-out 0.5s;
+}
+a:hover {
+    color: var(--text-secondary);
+}
+h4 {
+    color: var(--text-primary);
+    font-weight: 900;
+    font-size: 1.2rem;
+}
+hr {
+    border-color: var(--text-primary);
+    width: 50%;
+    margin: 0.5rem 0 2rem 0;
+}
+
+.ud-sm-gap {
+    gap: 1rem;
+}
+
+.ud-sm-padding {
+    padding: 1rem 0.5rem;
+}
+.ud-md-padding {
+    padding: 2rem 1rem;
+}
+.ud-lg-padding {
+    padding: 3rem 1.4rem;
+}
+input {
+    background-color: transparent;
+    outline: none;
+    border: 3px solid var(--text-primary);
+    padding: 10px 20px;
+    border-radius: 8px;
+    width: 100%;
+    color: var(--text-primary);
+}
+.ud-form-group {
+    margin: 1rem 0;
+    width: 100%;
+}
+
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color: var(--text-primary);
+}
+::placeholder {
+    color: var(--text-primary);
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color: var(--text-primary);
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color: var(--text-primary);
+}
