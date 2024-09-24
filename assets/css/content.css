@@ -7,6 +7,9 @@
                          "main sec2";
     grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
 }
+.featured-articles a {
+    color: var(--bg-secondary);
+}
 .featured-articles .main {
     grid-area: main;
     height: 500px;

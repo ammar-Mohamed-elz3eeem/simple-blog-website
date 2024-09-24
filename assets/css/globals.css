@@ -2,7 +2,9 @@
     --bg-primary: #FFF8E8;
     --bg-secondary: #F7EED3;
     --text-primary: #674636;
+    --text-primary-dark: #361e12;
     --text-secondary: #AAB396;
+    --btn-border: #000000;
 }
 * {
     padding: 0;
@@ -20,9 +22,10 @@ ul {
 }
 
 a {
-    color: var(--text-primary);
+    color: var(--text-primary-dark);
     text-decoration: none;
     transition: color ease-in-out 0.5s;
+    font-weight: 700;
 }
 a:hover {
     color: var(--text-secondary);
@@ -45,7 +48,7 @@ hr {
 input {
     background-color: transparent;
     outline: none;
-    border: 3px solid var(--text-primary);
+    border: 3px solid var(--btn-border);
     padding: 10px 20px;
     border-radius: 8px;
     width: 100%;
@@ -124,16 +127,20 @@ input {
     width: 100%;
 }
 ::-webkit-input-placeholder { /* WebKit, Blink, Edge */
-    color: var(--text-primary);
+    color: #000000;
+    font-weight: 600;
 }
 ::placeholder {
-    color: var(--text-primary);
+    color: #000000;
+    font-weight: 600;
 }
 :-moz-placeholder { /* Mozilla Firefox 4 to 18 */
-    color: var(--text-primary);
+    color: #000000;
+    font-weight: 600;
 }
 ::-moz-placeholder { /* Mozilla Firefox 19+ */
-    color: var(--text-primary);
+    color: #000000;
+    font-weight: 600;
 }
 
 /***** Start Width & Height Styles *****/
@@ -220,10 +227,8 @@ input {
 
 /***** BUTTON Styles *****/
 .btn {
-    background-color: var(--text-primary);
+    background: transparent;
     outline: none;
-    border: none;
-    color: var(--bg-secondary);
     padding: 0.6rem 2rem;
     width: 50%;
     text-align: center;
@@ -233,4 +238,11 @@ input {
     gap: 0.7rem;
     font-size: 1.1rem;
     justify-content: center;
+    transition: all 0.5s ease-in-out;
+    color: var(--btn-border);
+    border: 3px solid var(--btn-border);
+}
+.btn:hover {
+    background-color: var(--text-primary);
+    color: var(--bg-primary);
 }
