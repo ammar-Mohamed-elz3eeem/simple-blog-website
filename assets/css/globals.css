@@ -161,6 +161,9 @@ input {
 .bg-samsung-article2 {
     background-image: url('../images/samsung-sm-card.jpg');
 }
+.bg-samsung-article3 {
+    background-image: url('../images/samsung-hard.jpg');
+}
 .bg-no-repeat {
     background-repeat: no-repeat;
 }
