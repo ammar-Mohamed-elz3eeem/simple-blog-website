@@ -27,6 +27,11 @@ a {
 a:hover {
     color: var(--text-secondary);
 }
+h3 {
+    color: var(--text-primary);
+    font-weight: 900;
+    font-size: 1.4rem;
+}
 h4 {
     color: var(--text-primary);
     font-weight: 900;
@@ -108,6 +113,9 @@ input {
 }
 .ud-lg-padding {
     padding: 3rem 1.4rem;
+}
+.padding-inline-md {
+    padding: 2rem;
 }
 
 /***** Start Global Form Styles *****/
@@ -208,4 +216,21 @@ input {
 }
 .ud-text-secondary {
     color: var(--bg-primary);
+}
+
+/***** BUTTON Styles *****/
+.btn {
+    background-color: var(--text-primary);
+    outline: none;
+    border: none;
+    color: var(--bg-secondary);
+    padding: 0.6rem 2rem;
+    width: 50%;
+    text-align: center;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    gap: 0.7rem;
+    font-size: 1.1rem;
+    justify-content: center;
 }
