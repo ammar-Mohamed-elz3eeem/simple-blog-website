@@ -65,6 +65,9 @@ body {
 .ud-flex-row {
     flex-direction: row;
 }
+.ud-items-end {
+    justify-content: flex-end;
+}
 
 .ud-grid {
     display: grid;
@@ -95,6 +98,9 @@ hr {
 
 .ud-sm-gap {
     gap: 1rem;
+}
+.ud-grid-gap-xs {
+    gap: 0.05rem;
 }
 
 .ud-sm-padding {
@@ -131,4 +137,55 @@ input {
 }
 ::-moz-placeholder { /* Mozilla Firefox 19+ */
     color: var(--text-primary);
+}
+
+.ud-relative {
+    position: relative;
+}
+.ud-absolute {
+    position: absolute;
+}
+
+.ud-w-100 {
+    width: 100%;
+}
+.ud-h-100 {
+    height: 100%;
+}
+
+.bg-php-article {
+    background-image: url('../images/php.jpg');
+}
+.bg-samsung-article1 {
+    background-image: url('../images/samsung.jpg');
+}
+.bg-samsung-article2 {
+    background-image: url('../images/samsung-sm-card.jpg');
+}
+.bg-no-repeat {
+    background-repeat: no-repeat;
+}
+.bg-cover {
+    background-size: cover;
+}
+.bg-center {
+    background-position: center center;
+}
+.bg-overlay {
+    background-color: var(--text-primary);
+    opacity: 0.7;
+    z-index: 1;
+}
+.ud-text-secondary {
+    color: var(--bg-primary);
+}
+.z-2 {
+    z-index: 2;
+}
+.left-0 {
+    left: 0;
+}
+
+.top-0 {
+    top: 0;
 }
