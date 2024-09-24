@@ -36,8 +36,16 @@
 
 @media(max-width: 820px)
 {
+    .featured-articles .ud-grid {
+        grid-template-areas: "main";
+        grid-template-columns: 1fr;
+    }
+    .featured-articles .main .bg-overlay {
+        border-radius: 8px;
+    }
     .featured-articles .main {
-        grid-area: auto;
+        grid-area: main;
+        border-radius: 8px;
     }
     .featured-articles .secondary {
         display: none;

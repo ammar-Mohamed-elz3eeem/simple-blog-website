@@ -32,3 +32,27 @@ section.content .ud-grid .blogpost .author-info {
     padding: 10px 20px;
 }
 
+@media(max-width: 526px) {
+    .nav-menu {
+        display: none;
+    }
+    header .brand {
+        width: 100%;
+        text-align: center;
+    }
+    section.breadcrumb h1 {
+        font-size: 1.5rem;
+    }
+    section.content .ud-grid {
+        grid-template-areas: "blog";
+    }
+    section.content .ud-grid .blogpost .author-info {
+        flex-direction: column;
+    }
+    .ud-card-cols-4 {
+        grid-template-columns: 1fr;
+    }
+    .top-footer .brand {
+        font-size: 3rem;
+    }
+}
