@@ -4,16 +4,16 @@ header {
     margin: 1rem 2rem;
 }
 
-.brand {
+header .brand {
     font-size: 2rem;
 }
 
-.brand a {
+header .brand a {
     text-decoration: none;
     color: var(--text-primary);
     transition: color ease-in-out 0.5s;
 }
 
-.brand a:hover {
+header .brand a:hover {
     color: var(--text-secondary);
 }
