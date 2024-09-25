@@ -54,6 +54,11 @@ input {
     width: 100%;
     color: var(--text-primary);
 }
+figcaption {
+    font-size: 12px;
+    font-style: italic;
+    text-align: center;
+}
 
 /***** Start Flex Styles *****/
 .ud-flex {
